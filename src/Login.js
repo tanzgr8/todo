@@ -54,7 +54,7 @@ export default function Login() {
   };
   function renderbuttons(){
 if(todo){
-  return <Link className="btn btn-primary btn-lg" role="button" to="/todo">
+  return <Link className="btn btn-success btn-lg" role="button" to="/todo">
   GO TO TODO APP!
 </Link>; 
 }else{
