@@ -66,7 +66,7 @@ if(todo){
 
   return (
     <React.Fragment>
-      <div className="container ct1">
+      <div className="container ct1 text-white">
         <h1>LOGIN</h1>
         <div className=" ct">
           <div class="mb-3 row">
