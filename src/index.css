@@ -1,6 +1,25 @@
-html body{
-    background: #C33764;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+html body {
+  background: #c33764; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+input[type="text"] {
+  background: transparent;
+  color: white;
+}
+input[type="password"] {
+  background: transparent;
+  color: white;
+}
+input[type="text"]:focus {
+  background: transparent;
+  color: white;
 }
