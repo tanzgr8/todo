@@ -22,4 +22,7 @@ input[type="password"] {
 input[type="text"]:focus {
   background: transparent;
   color: white;
-}
+}input[type="password"]:focus {
+    background: transparent;
+    color: white;
+  }
