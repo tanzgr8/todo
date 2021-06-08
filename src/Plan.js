@@ -3,7 +3,7 @@ import './plan.css';
 export  default function Plan(props){
     const [check,setCheck]=useState(false);
     const toggleclass=()=>{
-        setCheck(!check);
+        setCheck(true);
     }
     return <>
    <li className={check?"shadow p-2 my-2 col-9 check":"shadow p-2 my-2 col-9 "} onClick={toggleclass}>{props.todo}</li>
