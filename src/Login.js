@@ -58,7 +58,7 @@ export default function Login() {
         <React.Fragment>
           <div className="container text-center ct3">
             <Link className="btn btn-success btn-lg" role="button" to="/todo">
-              GO TO TODO APP!<i className="arrow right icon"></i>
+              GO TO TODO APP!  <i className="arrow right icon"></i>
             </Link>
 
           </div>
