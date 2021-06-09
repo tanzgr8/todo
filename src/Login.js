@@ -58,9 +58,8 @@ export default function Login() {
         <React.Fragment>
           <div className="container text-center ct3">
             <Link className="btn btn-success btn-lg" role="button" to="/todo">
-              GO TO TODO APP!
+              GO TO TODO APP! <i className="arrow right icon "></i>
             </Link>
-            <ToastContainer />
           </div>
         </React.Fragment>
       );
@@ -98,7 +97,6 @@ export default function Login() {
             <button onClick={Helper} className="btn btn-primary btn-lg">
               Submit
             </button>
-            <ToastContainer />
           </div>
         </div>
       </React.Fragment>
@@ -109,8 +107,12 @@ export default function Login() {
   return (
 
 
-
-    renderbuttons()
+<>
+    {
+      renderbuttons()
+    }
+    <ToastContainer />
+</>
 
 
   );
